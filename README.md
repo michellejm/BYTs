@@ -2,11 +2,13 @@
 
 ##Corpus of Spanish/English Bilingual Youth Texts (BYTs)##
 
-###Messages###
+##Messages##
 
 The messages in this corpus were downloaded directly from participants' phones by creating a history of all of their text messages and downloading the archive. Participants signed two consent forms for this and had to enter their passcode to allow access. The messages have been anonymized first computationally and then they were hand masked by two independent researchers. There are 44,500 messages in the corpus, including spam, automated messages, and mass messages from participants’ cellphone carriers.
 
 There is one conversation in this data set that spans the first four months of a relationship. Both contributors were participants in the study, allowing for recovery of the complete conversation. When possible, other conversations have been kept intact and the conversation has been assigned a code. The intended purpose is for discourse analysis. 
+
+###Fields in the Messages Table###
 
 * **Msg_ID**: Each message has a unique identifier that begins with the letter, M
 
@@ -32,7 +34,29 @@ There is one conversation in this data set that spans the first four months of a
 
 * **Sent**: Whether the donator sent or received the message.
 
-**Masked Items**
+###Fields in the Demographics Table:###
+
+* **Usr_ID**: See Above
+* **Gender**: Self reported gender, only male (m) or female (f) were reported
+* **Age**: Age range, either 17-19 or 20-22
+* **Birthplace**: Country of birth
+* **AOA**: Age of Arrival to the United States (if frequently moved, the first age is listed)
+* **Phone_Type**: Participants wrote in their phone type, only Android and iPhones were used
+* **Phone_Settings**: The language settings (not necessarily the keyboard) En = English, Sp = Spanish
+
+##Fields in the Languages Table:##
+
+* **Msg_ID**: See Above
+* **Likely_Language**: Smarter result for this corpus
+* **Language**: Result from stop words tagging
+* **Confidence**: Number of words identified from reported language compared to all identifiable words
+
+##Fields in the POS Table:##
+
+* **Msg_ID**: See Above
+* **Tags**: The result of computationally tagging all the messages based on the likely language result from POS tagging.
+
+##Masked Items##
 
 'd' indicates how many characters, including spaces and punctuation were in the masked item. For example, 234-567-8900 is masked as [NUMBER, 12] whereas 2345678900 is masked as [NUMBER, 10]
 
