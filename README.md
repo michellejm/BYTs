@@ -2,11 +2,11 @@
 
 ##Corpus of Spanish/English Bilingual Youth Texts (BYTs)##
 
+This corpus includes 44,597 messages sent by Spanish/English bilingual youth in New York City. It was part of the data collection for "Literacies of Bilingual Youth: A profile of bilingual academic, social, and txt literacy." For more information about this project, visit www.byts.commons.gc.cuny.edu. These files are encrypted. Please contact Michelle A. McSweeney at mjohnson2@gc.cuny.edu or the Second Language Acquisition Lab at the Graduate Center at CUNY slal.gc.cuny.edu with your name, affiliation, and a 1-2 sentence description of your research for the password. 
+
 ##Messages##
 
 The messages in this corpus were downloaded directly from participants' phones by creating a history of all of their text messages and downloading the archive. Participants signed two consent forms for this and had to enter their passcode to allow access. The messages have been anonymized first computationally and then they were hand masked by two independent researchers. There are 44,500 messages in the corpus, including spam, automated messages, and mass messages from participants’ cellphone carriers.
-
-There is one conversation in this data set that spans the first four months of a relationship. Both contributors were participants in the study, allowing for recovery of the complete conversation. When possible, other conversations have been kept intact and the conversation has been assigned a code. The intended purpose is for discourse analysis. 
 
 ###Fields in the Messages Table###
 
